@@ -15,7 +15,7 @@ li {
 
 .container {
     width: 1500px;
-    outline: solid red 1px;
+    /* outline: solid red 1px; */
     margin: 0 auto;
 }
 
@@ -50,10 +50,21 @@ li {
     gap: 50px;
 }
 
+.ulNav li a {
+    color: #252525;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ulNav li a:hover {
+    color: rgb(73, 73, 73);
+}
+
 .backNav {
     background-color: rgb(255, 255, 255);
     margin-bottom: 100px;
-    outline: solid blue 1px;
+    /* outline: solid blue 1px; */
 }
 
 .introduction {
@@ -254,7 +265,7 @@ h1 {
 .listGold li {
     width: 280px;
     /* height: 600px; */
-    outline: solid blue 1px;
+    /* outline: solid blue 1px; */
 }
 
 .imgShowlist {
@@ -431,6 +442,142 @@ h1 {
         background-color: white;
         outline: solid 3px white;
     }
+}
+
+.infoAboutus {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.infoAboutus article {
+    width: 450px;
+    height: 250px;
+    /* outline: solid red 1px; */
+}
+
+.firstinfo {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.secondinfo {
+    background-color: rgb(255, 221, 29);
+}
+
+.thirdInfo {
+    background-color: rgb(145, 145, 145);
+}
+
+/* .thirdInfo h3 {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+} */
+
+.infoLook {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    /* row-height: 20px; */
+}
+
+.paragraphLookk {
+    color: white;
+        text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.paragraphLookk3 {
+    color: black;
+}
+
+.infoLook3 {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.titleend {
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.linksSocmedia {
+    font-size: 14px;
+    /* width: 50px;
+    height: 50px; */
+    padding: 20px 10px;
+    font-weight: 300;
+    background-color: #a8a8a8;
+    border-radius: 50%;
+}
+
+.listSocmedia {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.listFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.inforeturn {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.inforeturn li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(175, 149, 0);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.line {
+    /* width: 100%; */
+    height: 1px;
+    /* background-color: blue; */
+    margin-bottom: 20px;
+}
+
+.ttSvg {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.ttSvg use {
+    x: 10px;
+    y: 10px;
+    /* transform: translateX(-50%); */
 }
 
 /*  .roboto-<uniquifier> {
