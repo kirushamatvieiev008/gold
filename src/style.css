@@ -69,7 +69,10 @@ li {
 
 .introduction {
     width: 100%;
-    background-color: rgb(53, 53, 53);
+    background-image: url(photos/headerBack.png);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
     /* height: fit-content; */
     height: 700px;
     padding-bottom: 50px;
@@ -93,7 +96,7 @@ h1 {
 }
 
 .owingTochristmas {
-    background-color: rgb(199, 172, 21);
+    background-color: rgb(226, 202, 65);
     border: none;
     padding: 50px;
     font-size: 25px;
@@ -113,7 +116,7 @@ h1 {
 
     cursor: pointer;
 
-    box-shadow: 5px 5px 5px rgb(112, 86, 2);
+    box-shadow: 5px 5px 5px rgb(189, 149, 20);
 }
 
 .owingTochristmas:hover {
@@ -127,8 +130,8 @@ h1 {
 
 @keyframes hoverBtns {
     0% {
-        box-shadow: 5px 5px 5px rgb(112, 86, 2);
-        background-color: rgb(199, 172, 21);
+        box-shadow: 5px 5px 5px rgb(189, 149, 20);
+        background-color: rgb(226, 202, 65);
     }
 
     100% {
@@ -165,14 +168,21 @@ h1 {
 .worldMeder {
     width: 850px;
     height: 600px;
-    background-color: rgb(61, 61, 61);
+    background-image: url(photos/newBlack.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     /* outline: solid green 5px; */
 }
 
 .sellNewAndOld {
-    background-color: rgb(199, 199, 199);
+    background-image: url(photos/whiteback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 550px;
+    height: 600px;
     position: relative;
 }
 
@@ -369,7 +379,11 @@ h1 {
 
 .blocksubscribeTelegram {
     height: 550px;
-    background-color: #252525;
+    background-image: url(photos/blackSection.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     position: relative;
 }
 
@@ -490,7 +504,7 @@ h1 {
 
 .paragraphLookk {
     color: white;
-        text-transform: uppercase;
+    text-transform: uppercase;
     text-align: center;
     font-weight: 600;
     padding-top: 20px;
